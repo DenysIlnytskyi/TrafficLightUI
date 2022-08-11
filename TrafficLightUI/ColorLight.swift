@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct ColorLight: View {
+    
+    let color: Color
+    let opacity: Double
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Circle()
+            .frame(width: 100, height: 100)
+            .foregroundColor(color)
+            .opacity(opacity)
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+        
     }
 }
 
 struct ColorLight_Previews: PreviewProvider {
     static var previews: some View {
-        ColorLight()
+        ColorLight(color: .red, opacity: 1)
     }
 }

@@ -12,6 +12,7 @@
 		86A109C028A5899900220EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A109BF28A5899900220EAF /* Assets.xcassets */; };
 		86A109C328A5899900220EAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A109C228A5899900220EAF /* Preview Assets.xcassets */; };
 		86A109CA28A589ED00220EAF /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A109C928A589ED00220EAF /* ColorLight.swift */; };
+		86A109CC28A58C0A00220EAF /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A109CB28A58C0A00220EAF /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		86A109BF28A5899900220EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A109C228A5899900220EAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86A109C928A589ED00220EAF /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		86A109CB28A58C0A00220EAF /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				86A109BB28A5899800220EAF /* TrafficLightUIApp.swift */,
 				86A109BD28A5899800220EAF /* ContentView.swift */,
 				86A109C928A589ED00220EAF /* ColorLight.swift */,
+				86A109CB28A58C0A00220EAF /* ChangeColorButton.swift */,
 				86A109BF28A5899900220EAF /* Assets.xcassets */,
 				86A109C128A5899900220EAF /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				86A109CA28A589ED00220EAF /* ColorLight.swift in Sources */,
 				86A109BE28A5899800220EAF /* ContentView.swift in Sources */,
 				86A109BC28A5899800220EAF /* TrafficLightUIApp.swift in Sources */,
+				86A109CC28A58C0A00220EAF /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
